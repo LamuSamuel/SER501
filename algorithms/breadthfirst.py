@@ -29,5 +29,5 @@ breadthfirst(graph,'a')
 # we are trying to pop out the 0th element of our queue. But here in our case our first iteration may have only one node , but as we go further come accross muliple nodes.
 #so we pop a and add it in the visited list which doen't have duplicates. now as we seach for a neighbours we have b and c , we add them to our queue and again call recursive function.
 # so now pop(0) makes  this algorithm different from the DFS
-# BFS is all about FIFO (add back / remove front) . so it removes b and then gets the b neighbour to join c,here b neighbour is d so queue now has [d,c] now c is popped out in next recursive call and c neighbour e is added behind the list along with d and this process continues :) 
+# BFS is all about FIFO (add back / remove front) . so it removes b and then gets the b neighbour to join c,here b neighbour is d so queue now has [d,c] now c is popped out in next recursive call and c neighbour e is added behind the list along with d ,[e,d] ,and this process continues :) 
 # Remember this is all about my understanding , i may be wrong at some point.
