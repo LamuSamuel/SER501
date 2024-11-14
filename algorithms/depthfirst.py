@@ -25,6 +25,8 @@ depthfirst(graph, 'a')
 
 
 ## what is all about DFA ?
+#Depth-First Search (DFS) is a graph traversal algorithm used to explore nodes and edges of a graph. 
+# It starts at a source node and explores as deeply as possible along each branch before backtracking. It is called "depth-first" because it explores the deepest nodes first before moving on to nodes at the same level.
 # in the first step you declare the graph and a function , such that we will pass our graph and the first node to mine for the DFS
 # We created initial stack with value 'a', which will be updated later , now we have while function which is active till the stack  has a value.
 # We pop the a from the stack and we add it to the visited set , so the first value in DFS is a , next we get the neighbors of a which are b and c
